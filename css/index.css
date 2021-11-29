@@ -41,6 +41,7 @@
 .flipCardFront img{
   height: 100%;
   width: 100%;
+  background-size: cover;
 }
 
 .productName {
@@ -52,6 +53,18 @@
   top: 5%;
   position: absolute;
   color: #f1e2c4;
+  font-size: 20pt;
+}
+
+.productName_black {
+  position:absolute;
+  margin-left:auto;
+  margin-right:auto;
+  left:0;
+  right:0;
+  top: 5%;
+  position: absolute;
+  color: rgb(0, 0, 0);
   font-size: 20pt;
 }
 
